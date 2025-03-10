@@ -6,7 +6,7 @@ from services.tts_service import request_tts, wait_for_audio
 from utils.downloader import download_audio
 
 # 데이터 폴더 설정
-AUDIO_FILE_PATH = "C:/Users/001/Documents/간병인프로젝트/voice/dataset/train/custom_voice/고기중국어.wav"
+AUDIO_FILE_PATH = "C:/Users/001/Documents/간병인프로젝트/voice/dataset/train/custom_voice/sound.wav"
 OUTPUT_FOLDER = "C:/Users/001/Documents/간병인프로젝트/voice/model_result"
 OUTPUT_FILE_PATH = os.path.join(OUTPUT_FOLDER, "seg1.wav")
 
