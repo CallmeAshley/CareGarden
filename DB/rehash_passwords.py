@@ -12,7 +12,7 @@ def rehash_passwords():
         if not user.password.startswith("$2b$"):
             hashed_password = pwd_context.hash(user.password)
             user.password = hashed_password
-            print(f"🔄 Updated password for {user.email}")
+            print(f"Updated password for {user.email}")
     db.commit()
     db.close()
 
