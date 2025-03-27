@@ -61,7 +61,7 @@ lora_config = LoraConfig(
     r=8,  # LoRA rank
     lora_alpha=16,  # 학습률 비율
     lora_dropout=0.1,  # 드롭아웃 비율
-    target_modules=["encoder.block.*.attn.q_proj", "encoder.block.*.attn.k_proj", "encoder.block.*.attn.v_proj"],  # LoRA를 적용할 모듈
+    target_modules=["encoder.block.*.attn.q_proj", "encoder.block.*.attn.v_proj"],  # LoRA를 적용할 모듈
 )
 
 # LoRA 모델로 변환
